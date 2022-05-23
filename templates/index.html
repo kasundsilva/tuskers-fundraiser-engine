@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<style>
+  .center {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .button {
+    background-color: #008CBA; /* Blue */
+    border: 5px solid;
+    color: white;
+    padding: 5px 32px;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tuskers Fundraiser Engine</title>
+</head>
+<body>
+<div class="center">
+    <h1>Tuskers Fundraiser Engine</h1>
+    <h3>Upload your CSV file</h3>
+    <form method="POST" action="" enctype="multipart/form-data">
+        <label class="file-upload">
+            <input type="file" name="file"/>
+        </label>
+        <input class="button" type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
