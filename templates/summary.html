@@ -1,32 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+    .top-bar {
+        text-align: center;
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <title>Tuskers Fundraiser Engine</title>
 </head>
+
 <body>
+    <div class="top-bar">
+        <a class="btn btn-outline-primary" href="/" role="button">New</a>
+        <a class="btn btn-primary" href="#" role="button">Summary</a>
+        <a class="btn btn-outline-primary" href="/pickup" role="button">Pick Up</a>
+        <a class="btn btn-outline-primary" href="delivery" role="button">Delivery</a>
+        <a class="btn btn-outline-primary" href="/order_list" role="button">Order List</a>
+    </div>
+<!-- 
+    <div class="row">
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div> -->
+    <br>
     <h1> Order Summary </h1>
     <p> Chicken Orders: {{chicken}}</p>
     <p> Egg Orders: {{egg}}</p>
     <p> Vege Orders: {{vegetable}}</p>
-<br>
+    <br>
     <h2> Orders to Pick Up </h2>
     <h3> Newlands </h3>
     <p> Chicken Orders: {{pickUpChickenNewLands}}</p>
     <p> Egg Orders: {{pickUpEggNewLands}}</p>
     <p> Vege Orders: {{pickUpVegeNewLands}}</p>
-<br>
+    <br>
     <h3> Churton Park </h3>
     <p> Chicken Orders: {{pickUpChickenChurtonPark}}</p>
     <p> Egg Orders: {{pickUpEggChurtonPark}}</p>
     <p> Vege Orders: {{pickUpVegeChurtonPark}}</p>
-<br>
+    <br>
     <h3> Lower Hutt </h3>
     <p> Chicken Orders: {{pickUpChickenLowerHutt}}</p>
     <p> Egg Orders: {{pickUpEggLowerHutt}}</p>
     <p> Vege Orders: {{pickUpVegeLowerHutt}}</p>
+    <br>
+    <h2> Orders to Deliver </h2>
+    <h3> Newlands </h3>
+    <p> Chicken Orders: {{chickenNewLands}}</p>
+    <p> Egg Orders: {{eggNewLands}}</p>
+    <p> Vege Orders: {{vegeNewLands}}</p>
+    <br>
+    <h3> Churton Park </h3>
+    <p> Chicken Orders: {{chickenChurtonPark}}</p>
+    <p> Egg Orders: {{eggChurtonPark}}</p>
+    <p> Vege Orders: {{vegeChurtonPark}}</p>
+    <br>
+    <h3> Lower Hutt </h3>
+    <p> Chicken Orders: {{chickenLowerHutt}}</p>
+    <p> Egg Orders: {{eggLowerHutt}}</p>
+    <p> Vege Orders: {{vegeLowerHutt}}</p>
+    <br>
+    <h3> City </h3>
+    <p> Chicken Orders: {{chickenCity}}</p>
+    <p> Egg Orders: {{eggCity}}</p>
+    <p> Vege Orders: {{vegeCity}}</p>
 </body>
+
 </html>
-
-
-

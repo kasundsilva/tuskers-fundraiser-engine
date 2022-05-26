@@ -1,0 +1,20 @@
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://192.168.1.221:5000/ (Press CTRL+C to quit)
+192.168.1.147 - - [25/May/2022 17:49:21] "GET / HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 17:49:34] "GET /summary HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 17:49:59] "GET /pickup HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 17:50:01] "GET /delivery HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 17:50:01] "GET /order_list HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 18:22:18] "GET / HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 18:22:31] "GET /summary HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 18:22:34] "GET /pickup HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 18:22:36] "GET /delivery HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 18:22:38] "GET /order_list HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 18:22:40] "GET / HTTP/1.1" 200 -
+192.168.1.147 - - [25/May/2022 18:22:42] "GET /summary HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2022 18:27:43] "GET /summary HTTP/1.1" 200 -

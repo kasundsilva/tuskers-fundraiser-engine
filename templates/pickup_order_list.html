@@ -11,22 +11,32 @@
         margin-right: -50%;
         transform: translate(-50%, -50%)
     }
-    </style>
+</style>
 <head>
-    <meta charset="UTF-8">
-    <title>Tuskers Fundraiser Engine</title>
+<meta charset="UTF-8">
+<title>Tuskers Fundraiser Engine</title>
 </head>
 <body>
     <div class="top-bar">
         <a class="btn btn-outline-primary" href="/" role="button">New</a>
-        <a class="btn btn-outline-primary" href="summary" role="button">Summary</a>
-        <a class="btn btn-outline-primary" href="pickup" role="button">Pick Up</a>
+        <a class="btn btn-outline-primary" href="/summary" role="button">Summary</a>
+        <a class="btn btn-primary" href="#" role="button">Pick Up</a>
         <a class="btn btn-outline-primary" href="/delivery" role="button">Delivery</a>
-        <a class="btn btn-primary" href="#" role="button">Order List</a>
+        <a class="btn btn-outline-primary" href="order_list" role="button">Order List</a>
     </div>
     <br>
-<h1>Full Order List</h1>
-<br>
-{{data|safe}}
+    <h1> Orders to Pick Up </h1>
+    <h2> Newlands </h2>
+    {{newlandsData|safe}}
+    <br>
+    <h2> Churton Park </h2>
+    {{churtonParkData|safe}}
+    <br>
+    <h2> Lower Hutt </h2>
+    {{lowerHuttData|safe}}
+    <br>
 </body>
 </html>
+
+
+
